@@ -52,12 +52,9 @@ The game reads the level files from the current working directory, so it must be
 
 ### Windows
 
-Set `PATH_TO_FX` to the `lib` folder of your JavaFX SDK and run `start.bat`. It compiles the sources into `bin/` and starts the game:
+Run `TowerDefenseGame\start.bat` (double-clicking it works). It compiles the sources into `bin/` and starts the game.
 
-```bat
-set PATH_TO_FX=C:\path\to\javafx-sdk-17.0.15\lib
-TowerDefenseGame\start.bat
-```
+On the first run it asks for the path to the `lib` folder of your JavaFX SDK (for example `C:\javafx-sdk-17.0.15\lib`) and saves it to `TowerDefenseGame\javafx-path.txt`, which is not tracked by git. If the `PATH_TO_FX` environment variable is set, it is used instead.
 
 ### macOS / Linux
 

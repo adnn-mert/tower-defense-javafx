@@ -25,6 +25,9 @@ build.fxbuild
 *.tgz
 *.gz
 
+# Local JavaFX SDK path saved by start.bat
+javafx-path.txt
+
 # Office documents / reports
 *.doc
 *.docx
