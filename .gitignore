@@ -1,0 +1,36 @@
+# Build output
+bin/
+out/
+build/
+*.class
+*.jar
+
+# IDE files
+.project
+.classpath
+.settings/
+.metadata/
+build.fxbuild
+*.launch
+.idea/
+*.iml
+.vscode/
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+# Office documents / reports
+*.doc
+*.docx
+~$*
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
